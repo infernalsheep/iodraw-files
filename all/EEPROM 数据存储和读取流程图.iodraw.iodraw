@@ -45,7 +45,7 @@
           <mxGeometry x="412" y="2271" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-8" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="797" y="1354" width="92" height="49" as="geometry" />
+          <mxGeometry x="818" y="1351" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-9" value="检查当前存储数据个数是否为6的倍数" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="756" y="1461" width="216" height="205" as="geometry" />
