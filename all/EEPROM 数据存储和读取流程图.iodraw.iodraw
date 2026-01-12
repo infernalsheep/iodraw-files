@@ -47,6 +47,16 @@
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-8" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="818" y="1351" width="92" height="49" as="geometry" />
         </mxCell>
+        <mxCell id="Kln0W9KnttGJJiFbS1SE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735.793689546131" y="2063.5238095238096" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kln0W9KnttGJJiFbS1SE-9" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kln0W9KnttGJJiFbS1SE-8">
+          <mxGeometry x="-0.0519" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-9" value="检查当前存储数据个数是否为6的倍数" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="756" y="1461" width="216" height="205" as="geometry" />
         </mxCell>
@@ -88,13 +98,6 @@
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-8" target="rp_V1A9yxiZa0qSaSPEn-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-23" value="若不完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-9" target="rp_V1A9yxiZa0qSaSPEn-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="744" y="1765" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.02;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-10" target="rp_V1A9yxiZa0qSaSPEn-11" edge="1">
