@@ -51,13 +51,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-16" value="若不完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-2" target="rp_V1A9yxiZa0qSaSPEn-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="388" y="1765" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rp_V1A9yxiZa0qSaSPEn-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.39;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-3" target="rp_V1A9yxiZa0qSaSPEn-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
