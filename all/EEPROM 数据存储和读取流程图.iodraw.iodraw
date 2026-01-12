@@ -4,68 +4,68 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="122" y="1348" width="92" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-2" value="检查当前存储数据个数是否为6的倍数（数据组完整性校验）" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-2" value="检查当前存储数据个数是否为6的倍数&#xa;（数据组完整性校验）" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="1447" width="276" height="276" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-3" value="舍弃多余数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-3" value="舍弃多余数据" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="20" y="1804" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-4" value="计算当前数据存储地址" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-4" value="计算当前数据存储地址" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="58" y="1943" width="220" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-5" value="将加速度X/Y/Z、角速度X/Y/Z依次写入EEPROM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-5" value="将加速度X/Y/Z、角速度X/Y/Z依次写入EEPROM" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="38" y="2050" width="258" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-6" value="更新已存储数据个数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-6" value="更新已存储数据个数" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="66" y="2167" width="204" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-7" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-7" value="结束" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="122" y="2265" width="92" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-8" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-8" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="507" y="1348" width="92" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-9" value="检查当前存储数据个数是否为6的倍数" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-9" value="检查当前存储数据个数是否为6的倍数" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="424" y="1455" width="258" height="258" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-10" value="返回错误码-1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-10" value="返回错误码-1" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="377" y="2059" width="154" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-11" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-11" value="结束" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="507" y="2167" width="92" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-12" value="接收读取组数指令→计算起始地址" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-12" value="接收读取组数指令→计算起始地址" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="525" y="1795" width="252" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-13" value="依次读取6个数据（1组）→转换为浮点数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-13" value="依次读取6个数据（1组）→转换为浮点数" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="525" y="1934" width="253" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-14" value="返回数据组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-14" value="返回数据组" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="581" y="2059" width="140" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-1" target="rp_V1A9yxiZa0qSaSPEn-2">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-1" target="rp_V1A9yxiZa0qSaSPEn-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-16" value="若不完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-2" target="rp_V1A9yxiZa0qSaSPEn-3">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-16" value="若不完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-2" target="rp_V1A9yxiZa0qSaSPEn-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="98" y="1759" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.39;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-3" target="rp_V1A9yxiZa0qSaSPEn-4">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.39;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-3" target="rp_V1A9yxiZa0qSaSPEn-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="98" y="1898" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-18" value="若完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.71;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-2" target="rp_V1A9yxiZa0qSaSPEn-4">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-18" value="若完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.71;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-2" target="rp_V1A9yxiZa0qSaSPEn-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="299" y="1759" />
@@ -73,58 +73,58 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-4" target="rp_V1A9yxiZa0qSaSPEn-5">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-4" target="rp_V1A9yxiZa0qSaSPEn-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-5" target="rp_V1A9yxiZa0qSaSPEn-6">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-5" target="rp_V1A9yxiZa0qSaSPEn-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.49;entryY=0.01;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-6" target="rp_V1A9yxiZa0qSaSPEn-7">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.49;entryY=0.01;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-6" target="rp_V1A9yxiZa0qSaSPEn-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-8" target="rp_V1A9yxiZa0qSaSPEn-9">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-8" target="rp_V1A9yxiZa0qSaSPEn-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-23" value="若不完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-9" target="rp_V1A9yxiZa0qSaSPEn-10">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-23" value="若不完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-9" target="rp_V1A9yxiZa0qSaSPEn-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="454" y="1759" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.02;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-10" target="rp_V1A9yxiZa0qSaSPEn-11">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.02;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-10" target="rp_V1A9yxiZa0qSaSPEn-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="454" y="2142" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-25" value="若完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-9" target="rp_V1A9yxiZa0qSaSPEn-12">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-25" value="若完整" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-9" target="rp_V1A9yxiZa0qSaSPEn-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="651" y="1759" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-12" target="rp_V1A9yxiZa0qSaSPEn-13">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-12" target="rp_V1A9yxiZa0qSaSPEn-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-13" target="rp_V1A9yxiZa0qSaSPEn-14">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-13" target="rp_V1A9yxiZa0qSaSPEn-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp_V1A9yxiZa0qSaSPEn-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.02;rounded=0;" edge="1" parent="1" source="rp_V1A9yxiZa0qSaSPEn-14" target="rp_V1A9yxiZa0qSaSPEn-11">
+        <mxCell id="rp_V1A9yxiZa0qSaSPEn-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.02;rounded=0;" parent="1" source="rp_V1A9yxiZa0qSaSPEn-14" target="rp_V1A9yxiZa0qSaSPEn-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="651" y="2142" />
