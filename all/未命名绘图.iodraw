@@ -8,13 +8,13 @@
           <mxGeometry x="321" y="47" width="217" height="49" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-2" value="YOLOv8 检测红绿灯&#xa;获取检测框中心像素坐标 (u, v)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="304" y="119" width="252" height="84" as="geometry" />
+          <mxGeometry x="304" y="247" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-3" value="相机内参反投影&#xa;像素坐标 → 归一化方向向量" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="304" y="253" width="252" height="66" as="geometry" />
+          <mxGeometry x="304" y="357" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-4" value="OpenCV 坐标系 → ROS 相机坐标系（旋转矩阵）" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="312" y="369" width="236" height="66" as="geometry" />
+          <mxGeometry x="311.5" y="446" width="236" height="66" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-5" value="TF 变换：&#xa;camera_link → laser_corrected" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#f20707;" vertex="1" parent="1">
           <mxGeometry x="310" y="536" width="239" height="66" as="geometry" />
