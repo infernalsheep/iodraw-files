@@ -16,13 +16,13 @@
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-4" value="OpenCV 坐标系 → ROS 相机坐标系（旋转矩阵）" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="312" y="369" width="236" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-5" value="TF 变换：camera_link → laser_corrected" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#f20707;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-5" value="TF 变换：&#xa;camera_link → laser_corrected" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#f20707;" vertex="1" parent="1">
           <mxGeometry x="310" y="485" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-6" value="atan2 计算目标在 laser_corrected 坐标系中的方向角 target_angle" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="336" y="601" width="188" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-7" value="/scan（激光雷达数据）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-7" value="/scan（激光雷达数据）" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="32" y="494" width="228" height="49" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-8" value="遍历每个激光点，计算其角度 angle_lidar" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
