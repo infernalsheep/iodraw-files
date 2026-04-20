@@ -19,7 +19,7 @@
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-5" value="TF 变换：&#xa;camera_link → laser_corrected" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#f20707;" vertex="1" parent="1">
           <mxGeometry x="310" y="485" width="239" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-6" value="atan2 计算目标在 laser_corrected 坐标系中的方向角 target_angle" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-6" value="atan2 计算目标在 laser_corrected 坐标系中的方向角 target_angle" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="336" y="601" width="188" height="101" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-7" value="/scan（激光雷达数据）" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
@@ -31,7 +31,7 @@
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-9" value="角度匹配：&#xa;|angle_lidar - target_angle| &lt; 2°" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="168" y="753" width="239" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-10" value="取匹配点中的最小距离，输出红绿灯距离" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-10" value="取匹配点中的最小距离，输出红绿灯距离" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="162" y="869" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-1" target="6A-9YKvf5SuZEg8cgsfM-2">
