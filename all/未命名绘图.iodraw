@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-1" value="订阅话题：/usb_cam/image_raw" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-1" value="订阅话题：/usb_cam/image_raw" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="321" y="20" width="217" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-2" value="YOLOv8 检测红绿灯，获取检测框中心像素坐标 (u, v)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-2" value="YOLOv8 检测红绿灯&#xa;获取检测框中心像素坐标 (u, v)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="304" y="119" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-3" value="相机内参反投影：像素坐标 → 归一化方向向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
