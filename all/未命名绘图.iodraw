@@ -1,0 +1,89 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="pxcjBECynMq7O0vWgts9">
+    <mxGraphModel dx="1213" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-1" value="/usb_cam/image_raw" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="20" width="217" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-2" value="YOLOv8 检测红绿灯，获取检测框中心像素坐标 (u, v)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="119" width="252" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-3" value="相机内参反投影：像素坐标 → 归一化方向向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="253" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-4" value="OpenCV 坐标系 → ROS 相机坐标系（旋转矩阵）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312" y="369" width="236" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-5" value="TF 变换：camera_link → laser_corrected" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="485" width="239" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-6" value="atan2 计算目标在 laser_corrected 坐标系中的方向角 target_angle" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="336" y="601" width="188" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-7" value="/scan（激光雷达数据）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="32" y="494" width="228" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-8" value="遍历每个激光点，计算其角度 angle_lidar" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="619" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-9" value="角度匹配：|angle_lidar - target_angle| &amp;lt; 2°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="168" y="753" width="239" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-10" value="取匹配点中的最小距离，输出红绿灯距离" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="162" y="869" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-1" target="6A-9YKvf5SuZEg8cgsfM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-2" target="6A-9YKvf5SuZEg8cgsfM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-3" target="6A-9YKvf5SuZEg8cgsfM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-4" target="6A-9YKvf5SuZEg8cgsfM-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-5" target="6A-9YKvf5SuZEg8cgsfM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-7" target="6A-9YKvf5SuZEg8cgsfM-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.16;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-8" target="6A-9YKvf5SuZEg8cgsfM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.84;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-6" target="6A-9YKvf5SuZEg8cgsfM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="6A-9YKvf5SuZEg8cgsfM-9" target="6A-9YKvf5SuZEg8cgsfM-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
