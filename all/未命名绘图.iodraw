@@ -25,7 +25,7 @@
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-7" value="/scan（激光雷达数据）" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="32" y="494" width="228" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6A-9YKvf5SuZEg8cgsfM-8" value="遍历每个激光点，计算其角度 angle_lidar" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6A-9YKvf5SuZEg8cgsfM-8" value="遍历每个激光点，计算其角度 angle_lidar" style="whiteSpace=wrap;strokeWidth=2;fontSize=13;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="20" y="619" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="6A-9YKvf5SuZEg8cgsfM-9" value="角度匹配：|angle_lidar - target_angle| &amp;lt; 2°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
